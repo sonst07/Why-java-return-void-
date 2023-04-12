@@ -76,7 +76,7 @@ main함수가 종료되면 프로그램이 종료되는 게 아닌가? 그럼 �
 
 java에서는 운영체제에 반환을 안해줍니다.  
 
-java에서는 JVM에 System클래스가 그 역할을 해줘서 main의 반환값이 void인 것입니다.  
+java에서는 JVM에 System클래스가 그 역할을 해줘서 main의 반환값이 void인 것입니다.    
 
 <span style='background-color: #fff5b1'>
-즉 단순 void만 반환해줘서 return;으로 종료의 기능만을 하며 에러구문은 System에서 처리해줍니다.</span>
+##즉 단순 void만 반환해줘서 return;으로 종료의 기능만을 하며 에러구문은 System에서 처리해줍니다.</span>
