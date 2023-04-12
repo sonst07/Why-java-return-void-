@@ -3,7 +3,7 @@
 먼저 java API문서를 찾아보았습니다.
 https://docs.oracle.com/javase/specs/jls/se8/html/jls-12.html
 
-![image](https://user-images.githubusercontent.com/117427075/231462984-dd0e97ab-14f2-4e0d-b23e-f44c0e256670.png)
+![image](https://user-images.githubusercontent.com/117427075/231462984-dd0e97ab-14f2-4e0d-b23e-f44c0e256670.png)  
 보시면 must be declare로써 public static void를 쓰라고 합니다.
 
 즉 그냥 외우라는 것인데요
@@ -21,7 +21,7 @@ main 메소드의 접근 제어자는 public입니다.public 접근 제어자를
 즉, main 메소드를 어디에서나 접근 가능하게 만들고 싶다라는 의도를 가지고 있습니다.  
 
 ## 두번째로 static입니다
-![image](https://user-images.githubusercontent.com/117427075/231470890-374c4842-c930-4720-a171-cc44c83f367e.png)
+![image](https://user-images.githubusercontent.com/117427075/231470890-374c4842-c930-4720-a171-cc44c83f367e.png)  
 만약 main메소드가 heap영역에 선언되면 어떻게 될까요?  
 
 main메소드는 프로그램에 없어서는 안되는 기본함수인데요  
@@ -43,8 +43,8 @@ main함수가 종료되면 프로그램이 종료되는 게 아닌가? 그럼 �
 바로 운영체제입니다. 왜냐면 운영체제에서 프로그램을 실행시켜주었으니 당연히 운영체제에 반환을 해주어 에러를 찾아줄 수 있습니다.  
 
 
-![image](https://user-images.githubusercontent.com/117427075/231470998-1bd4e17b-29dc-4c76-bd60-bd9a1873daff.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/117427075/231470998-1bd4e17b-29dc-4c76-bd60-bd9a1873daff.png)  
+![image](https://user-images.githubusercontent.com/117427075/231471560-71acb861-d4bd-447b-b52d-26e52f1e1938.png)  
 즉 여기서 반환값은 마음대로 정하면 되는데 이 값으로써 어디에서 무엇이 종료되었는지 알 수 있습니다.  
 
 0 정상종료, -1 에러 그외 마음대로입니다  
