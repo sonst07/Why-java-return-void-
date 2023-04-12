@@ -57,9 +57,13 @@ main함수가 종료되면 프로그램이 종료되는 게 아닌가? 그럼 �
 즉 System.exit(0), System.exit(1), System.out(2) …. System.out(999)같이 쓰면 되는데요.  
 
 → 이것을 안쓰면 항상 0을 돌려준다고 합니다.  
+![image](https://user-images.githubusercontent.com/117427075/231472362-76329895-a27b-412a-9e3d-8e2f4ed074a4.png)  
+![image](https://user-images.githubusercontent.com/117427075/231472535-e41fcc05-c504-4c0c-aeb4-f7ffdce75bae.png)  
+
+  
 
 
-그렇다면 System클래스는 무엇일까요?  
+그렇다면 System클래스는 무엇일까요?    
 
 
 먼저 자바 프로그램은 운영체제상에서 바로 실행되는 것이 아니라 JVM 위에서 실행됩니다. 따라서 운영체제의 모든 기능을 자바 코드로 직접 접근하기란 어렵습니다.  
