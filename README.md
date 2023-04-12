@@ -82,4 +82,4 @@ java에서는 운영체제에 반환을 안해주며 JVM에 직접 반환하게�
 
 java에서는 JVM에 System클래스가 그 역할을 해줘서 main의 반환값이 void인 것입니다.    
 
-## 즉 단순 void만 반환해줘서 return;으로 종료의 기능만을 하며 에러구문은 System에서 처리해줍니다.
+## 즉 단순 void만 반환해줘서 return;은 종료의 기능만을 하며 에러구문은 System에서 처리해줍니다.
